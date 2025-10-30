@@ -1,0 +1,36 @@
+# Terraform files
+.terraform/
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.*
+*.tfvars
+crash.log
+crash.*.log
+.terraformrc
+terraform.rc
+
+# AWS credentials
+.aws/
+credentials.json
+*.pem
+
+# Python virtual environment
+.venv/
+venv/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Kaggle API token
+kaggle.json
+
+# Local data files (if they're large, consider not versioning them)
+# Uncomment if you don't want to version control the data
+# data/*.csv
